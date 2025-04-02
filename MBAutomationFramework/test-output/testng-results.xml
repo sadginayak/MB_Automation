@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T20:00:40 CEST" name="Test Suite" finished-at="2023-03-30T20:00:59 CEST" duration-ms="19224">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T20:00:40 CEST" name="Regression" finished-at="2023-03-30T20:00:59 CEST" duration-ms="19224">
+      <class name="com.automationDemo.test.MBAutomationTC1_Test">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56]" started-at="2023-03-30T20:00:38 CEST" name="suiteSetup" finished-at="2023-03-30T20:00:40 CEST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56]" started-at="2023-03-30T20:00:40 CEST" name="loadBaseUrl" finished-at="2023-03-30T20:00:42 CEST" duration-ms="2063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automationDemo.test.MBAutomationTC1_Test.selectModelTest(java.lang.String[])]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadBaseUrl -->
+        <test-method signature="selectModelTest([Ljava.lang.String;)[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56]" started-at="2023-03-30T20:00:42 CEST" name="selectModelTest" data-provider="tempTestData" finished-at="2023-03-30T20:00:59 CEST" duration-ms="16750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1e01b133]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectModelTest -->
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56]" started-at="2023-03-30T20:00:59 CEST" name="screenshotAndDeleteCookies" finished-at="2023-03-30T20:00:59 CEST" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectModelTest status=SUCCESS method=MBAutomationTC1_Test.selectModelTest([Ljava.lang.String;)[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotAndDeleteCookies -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.automationDemo.test.MBAutomationTC1_Test@5b1ebf56]" started-at="2023-03-30T20:00:59 CEST" name="suiteTearDown" finished-at="2023-03-30T20:00:59 CEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.automationDemo.test.MBAutomationTC1_Test -->
+    </test> <!-- Regression -->
+  </suite> <!-- Test Suite -->
+</testng-results>
